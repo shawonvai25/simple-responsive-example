@@ -11,73 +11,76 @@
       }
       .box {
         background-color: slateblue;
-        padding: 20px;
         border-radius: 20px;
+        padding: 10px;
       }
-      /* @media screen and (max-width: 576px) {
-        .container {
-          flex-direction: column;
-        } */
-
-      /* @media screen and (max-width: 576px) {
-        .container {
-          flex-direction: column;
-        }
-      } */
-
-      @media screen and (max-width: 576px) {
-        .container {
-          flex-direction: column;
-        }
-      }
-
       .container2 {
         display: flex;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 10px;
+        margin-top: 20px;
       }
       .item {
         width: 200px;
         height: 100px;
         background-color: aquamarine;
-        border: 1px solid tomato;
+        border: 2px solid tomato;
+        border-radius: 6px;
+      }
+
+      /* large device */
+      @media screen and (max-width: 992px) {
+        .container {
+          flex-direction: row;
+        }
+      }
+
+      /* medium device */
+      @media screen and (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+      /* small device */
+      @media screen and (max-width: 576px) {
+        .container {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
   <body>
-    <h2>Flexible flex</h2>
     <div class="container">
       <div class="box">
-        <h3>First box</h3>
+        <h3>First Box</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          dolores, asperiores repudiandae nam nemo cupiditate? Molestias aliquam
-          earum sed soluta accusamus consectetur. Ab harum ipsum nisi, et
-          explicabo corporis quasi cumque beatae nostrum ut?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo,
+          dolorum! Necessitatibus molestiae nihil suscipit iste sapiente soluta
+          quasi fugit dolorem, doloremque neque corporis repellat doloribus vel,
+          illum rem autem consequatur!
         </p>
       </div>
       <div class="box">
-        <h3>Second box</h3>
+        <h3>Second Box</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          rerum doloribus dicta quidem, voluptatum, hic nisi asperiores tenetur
-          consectetur sit nulla culpa dolores et eum, cupiditate quibusdam
-          fugiat quia maiores.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo,
+          dolorum! Necessitatibus molestiae nihil suscipit iste sapiente soluta
+          quasi fugit dolorem, doloremque neque corporis repellat doloribus vel,
+          illum rem autem consequatur!
         </p>
       </div>
     </div>
-
     <div class="container2">
-      <div class="item">item 1</div>
-      <div class="item">item 2</div>
-      <div class="item">item 3</div>
-      <div class="item">item 4</div>
-      <div class="item">item 5</div>
-      <div class="item">item 6</div>
-      <div class="item">item 7</div>
-      <div class="item">item 8</div>
-      <div class="item">item 9</div>
-      <div class="item">item 10</div>
+      <div class="item">Item -1</div>
+      <div class="item">Item -2</div>
+      <div class="item">Item -3</div>
+      <div class="item">Item -4</div>
+      <div class="item">Item -5</div>
+      <div class="item">Item -6</div>
+      <div class="item">Item -7</div>
+      <div class="item">Item -8</div>
+      <div class="item">Item -9</div>
+      <div class="item">Item -10</div>
     </div>
   </body>
 </html>
