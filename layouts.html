@@ -3,22 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Grid Area Layout</title>
     <link rel="stylesheet" href="styles/layouts.css" />
   </head>
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere
-      laboriosam optio similique molestiae, eaque omnis officia labore quisquam
-      sapiente explicabo in quasi molestias ex unde voluptatum iste alias
-      asperiores minus ut. Quidem sapiente amet iure eius blanditiis minima ipsa
-      consequatur error sed ullam explicabo id nihil tempora consequuntur sint
-      qui fugit consectetur doloremque optio quibusdam, voluptatem facilis
-      placeat alias iusto. Nam quia qui eius perferendis officia hic minima
-      nulla. Distinctio dolores tempora nam neque culpa sapiente aperiam
-      recusandae, porro blanditiis voluptate reprehenderit placeat odio, quod
-      veritatis aut totam voluptates! Officia ducimus cumque accusamus? Porro
-      deleniti tenetur vero inventore alias!
-    </p>
+  <body class="container">
+    <header class="header"><h3>The header</h3></header>
+    <nav class="nav">
+      <ul>
+        <li><a href="">nav -1</a></li>
+        <li><a href="">nav -2</a></li>
+        <li><a href="">nav -3</a></li>
+      </ul>
+    </nav>
+    <main class="main">
+      <!-- article*2>h3{main articel $}+p>lorem -->
+      <article>
+        <h3>main articel 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          dolor vel perferendis dolores aut est repellendus a eius placeat
+          dolore unde officia minima debitis doloribus voluptatum inventore,
+          autem dolorem voluptas?
+        </p>
+      </article>
+      <article>
+        <h3>main articel 2</h3>
+        <p>
+          Expedita nostrum, aliquid maiores qui eius commodi natus eaque
+          aspernatur pariatur repellat quo debitis ad iure quibusdam enim amet
+          dolorum, aperiam ipsa inventore nemo laboriosam ullam! Tempore rerum
+          nostrum sapiente?
+        </p>
+      </article>
+    </main>
+    <aside>
+      <div class="sidebar">
+        <h4>sidebar</h4>
+      </div>
+      <div class="advertise">
+        <h4>Advertise</h4>
+      </div>
+    </aside>
+    <footer class="footer">
+      <h3>the footer</h3>
+    </footer>
   </body>
 </html>
